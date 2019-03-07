@@ -1,0 +1,24 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>@title</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+        <link
+        type="text/css"
+        rel="stylesheet"
+        href="//unpkg.com/bootstrap-vue@@latest/dist/bootstrap-vue.min.css"
+        />
+
+
+        <script src="//unpkg.com/@@babel/polyfill@@latest/dist/polyfill.min.js"></script>
+        <script src="//unpkg.com/vue@@latest/dist/vue.min.js"></script>
+        <script src="//unpkg.com/bootstrap-vue@@latest/dist/bootstrap-vue.min.js"></script>
+    </head>
+    <body>
+    @content
+    </body>
+</html>
